@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Responsive Mobile First Web SMS avs</title>
+    <link rel="stylesheet" href="css/main.avs.css">
+  </head>
+
+<body>
+
+  <div class="navbar-avs">
+    <div class="container-avs">
+      <a class="logo-avs" href="#">Autorun<span>AVS</span></a>
+
+
+      <img id="menuBtn" class="mobile-menu-avs" src="images/menu.svg" alt="menu">
+
+      <nav>
+        <img id="exitBtn" class="mobile-menu-exit-avs" src="images/exit.svg" alt="close navigation">
+
+        <ul class="primary-nav-avs">
+          <li class="active-avs"><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+        </ul>
+
+        <ul class="secondary-nav-avs">
+          <li><a href="#">Contact</a></li>
+          <li class="go-premium-cta-avs"><a href="#">Go Premium</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+
+
+  <section class="hero-avs">
+    <div class="container-avs">
+
+      <div class="left-col-avs">
+        <p class="subhead-avs">It's Nitty &amp; Gritty</p>
+        <h1>A Task App That Doesn't Stink</h1>
+
+        <div class="hero-cta-avs">
+          <a href="#" class="primary-cta-avs">Try for free</a>
+          <a href="#" class="watch-video-cta-avs">
+            <img src="images/watch.svg" alt="watch video">Watch a Video
+          </a>
+        </div>
+      </div>
+
+      <img src="./images/illustration.svg" class="hero-img-avs" alt="illustration">
+    </div>
+  </section>
+
+
+
+  <section class="features-section-avs">
+    <div class="container-avs">
+      <ul class="features-list-avs">
+        <li>Unlimited Tasks</li>
+        <li>SMS TaskReminders</li>
+        <li>confetti Explosions upon Task Completions</li>
+        <li>Social Time Collaboration</li>
+        <li>Real Time Collaboration</li>
+        <li>Other awesome Features</li>
+      </ul>
+  
+      <img src="images/holding-phone.jpg" alt="Man holding phone">
+    </div>
+  </section>
+
+
+
+  <section class="testimonials-section-avs">
+    <div class="container-avs">
+      <ul>
+        <li>
+          <img src="./images/person.jpg" alt="Person">
+
+          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit optio sed quibusdam pariatur rerum dolores fugit molestias eligendi eos est?"</blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+        <li>
+          <img src="./images/person.jpg" alt="Person">
+
+          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit optio sed quibusdam pariatur rerum dolores fugit molestias eligendi eos est?"</blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+        <li>
+          <img src="./images/person.jpg" alt="Person">
+
+          <blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit optio sed quibusdam pariatur rerum dolores fugit molestias eligendi eos est?"</blockquote>
+          <cite>- Jane Doe</cite>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <section class="contact-section-avs">
+    <div class="container-avs">
+
+      <div class="contact-left-avs">
+        <h2>Contact</h2>
+
+        <form action="#">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+
+          <label for="massage">Massage</label>
+          <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+
+          <input type="submit" class="send-message-cta-avs" value="send message">
+        </form>
+      </div>
+
+      <div class="contact-right-avs">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.905605833001!2d89.56052247377768!3d22.805961324379787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff8fe3c0fcc45f%3A0xa5354a6c86c55a21!2sMoulvi%20Para%20Rd%2C%20Khulna!5e0!3m2!1sen!2sbd!4v1695187532618!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn')
+    nav = document.querySelector('nav')
+    exitBtn = document.getElementById('exitBtn');
+
+    //'classList' need to be with 'L' not 'l' not 'classlist', not gonna work
+    menuBtn.addEventListener('click', ()=> {
+      nav.classList.add('menu-btn-avs');
+    });
+
+    exitBtn.addEventListener('click', ()=> {
+      nav.classList.remove('menu-btn-avs');
+    });
+  </script>
+
+
+</body>
+</html>
