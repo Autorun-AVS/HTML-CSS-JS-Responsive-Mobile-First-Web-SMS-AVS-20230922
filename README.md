@@ -12,6 +12,9 @@ See the LICENSE file for more details.
 [Github Project link](https://github.com/Autorun-AVS/HTML-CSS-JS-Responsive-Mobile-First-Web-SMS-AVS-20230922)
 
 Screenshots:
+Screenshot 1
 ![Project screenshot 1](screenshots/Responsive-Mobile-First-Web-SMS-AVS%20(1).png)
+Screenshot 2
 ![Project screenshots 2](screenshots/Responsive-Mobile-First-Web-SMS-AVS%20(2).png)
+Screenshot 3
 ![Project screenshots 3](screenshots/Responsive-Mobile-First-Web-SMS-AVS%20(3).png)
